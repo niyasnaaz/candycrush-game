@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/3706929.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.app{
+    display: flex;
+    padding: 40px;
+    margin: 20px auto;
+    justify-content: center;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 8px 0;
+    width: 560px;
+    border-radius: 25px;
+    background-image: url(https://images0.pixlis.com/background-image-stripes-and-lines-seamless-tileable-french-lilac-light-sky-blue-232eow.png);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.game{
+    width:560px;
+    height: 560px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game img{
+    width: 70px;
+    height: 70px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 30px;
 }
